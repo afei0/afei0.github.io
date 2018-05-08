@@ -1,0 +1,162 @@
+.top{
+	width: 6.4rem;
+	display: flex;
+	background-color: #50bbdb;
+	padding: 0.23rem 0;
+}
+.top>i{
+	width: 0.43em;
+	height: 0.43rem;
+	background-image: url('../images/back_1.png');
+	background-repeat: no-repeat;
+	margin-left: 0.45rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.top>span{
+	margin-left: 1.75rem;
+	font-size: 0.28rem;
+	color:#fff;
+}
+
+
+/*section*/
+.total{
+	padding: 0.37rem 0;
+	margin-left: 0.53rem;
+	display: flex;
+}
+.total>span{
+	font-size: 0.28rem;
+	color:#f29846;
+}
+.total>span:last-child{
+	margin-left: 0.35rem;
+}
+
+.pay_bg{
+	padding-top: 0.27rem;
+	padding-bottom: 2.9rem;
+	background-color: #f6f6f6;
+	position: relative;
+}
+.pay_style{
+	background-color: #fff;
+	padding-left: 0.53rem; 
+	padding-right: 0.21rem;
+}
+.pay_style>div{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	padding-top: 0.22rem;
+	padding-bottom: 0.2rem;
+}
+.pay_style>div>span{
+	display: flex;
+	justify-content: space-between;
+}
+.pay_style>div:first-child>span>i:first-child{
+	width: 0.57rem;
+	height: 0.57rem;
+	background-image: url('../images/alipay.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.pay_style>div:nth-child(2)>span>i:first-child{
+	width: 0.58rem;
+	height: 0.58rem;
+	background-image: url('../images/wechat.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.pay_style>div:last-child>span>i:first-child{
+	width: 0.74rem;
+	height: 0.66rem;
+	background-image: url('../images/unionpay.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.pay_style>div:last-child{
+	border-bottom: 0;
+	padding-top: 0.18rem;
+	padding-bottom: 0.37rem;
+}
+.pay_style>div>span{
+	font-size: 0.28rem;
+	line-height: 0.58rem;
+}
+.pay_style>div>i:last-child{
+	width: 0.37rem;
+	height: 0.37rem;
+	background-image: url(../images/dot1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	border-radius: 50%;
+	margin-top: 0.16rem;
+}
+.pay_style>div>i.active{
+	background-image: url(../images/dot.png);
+}
+.pay_style>div:first-child>span>span{
+	margin-left: 0.37rem;
+}
+.pay_style>div:nth-child(2)>span>span{
+	margin-left: 0.4rem;
+}
+.pay_style>div:nth-child(3)>span>span{
+	margin-left: 0.26rem;
+}
+.pay_bg>i{
+	width: 0.5rem;
+	padding-top: 0.47rem;
+	display: block;
+	background-image: url('../images/refer_03.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	position: absolute;
+	top: 0.27rem;
+	right: 0;
+}
+
+
+/*footer*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 0.18rem 0.26rem 0.18rem 0.16rem;
+}
+footer>div{
+	display: flex;
+	flex-direction: column;
+}
+footer>div>em{
+	font-size: 0.2rem;
+	/*margin-top: 0.08rem;*/
+}
+footer>div>em>i{
+	font-style: normal;
+}
+footer>div>span{
+	font-size: 0.26rem;
+	color:#f0851a;
+}
+footer>div>span>i{
+	font-style: normal;
+	margin-left: 0.47rem;
+}
+footer>a{
+	width: 1.87rem;
+	line-height: 0.66rem;
+	text-align: center;
+	border-radius: 6px;
+	background-color: #50bbdb;
+	font-size: 0.3rem;
+	color:#fff;
+	float: right;
+}

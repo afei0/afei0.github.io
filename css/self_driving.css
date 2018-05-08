@@ -1,0 +1,168 @@
+.search{
+	width: 3.41rem;
+	padding-top: 1.16rem;
+	text-align: center;
+	position: absolute;
+	top:-0.9rem;
+	z-index:2;
+	left: 1.47rem;
+}
+.search>input{
+	width: 3.41rem;
+	outline: none;
+	border:1px solid #51bbdb;
+	border-radius: 0.06rem;
+	background: none;
+	line-height: 0.41rem;
+	font-size: 0.2rem;
+	text-indent: 0.2rem;
+}
+.search>a{
+	background-image: url('../images/search.png');
+	background-repeat: no-repeat;
+	width: 0.26rem;
+	height: 0.26rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+	position: absolute;
+	top: 2.03rem;
+	right: 0.18rem;
+}
+
+
+/*banner*/
+.banner{
+	width: 6.4rem;
+	position: relative;
+	padding-top: 3rem;
+}
+.banner>div>img{
+	position: absolute;
+	display: block;
+	top:0;
+	left: 0;
+}
+.banner>div>img:nth-child(2),.banner>div>img:last-child{
+	display: none;
+}
+.banner>ul{
+	position: absolute;
+	bottom: 0.28rem;
+	left: 2.32rem;
+
+}
+.banner>ul>li{
+	margin-left: 0.22rem;
+	width: 0.28rem;
+	padding-top: 0.28rem;
+	float: left;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+.banner>ul>li.active{
+	background-color: #50bbdb;
+}
+
+
+/* section */
+
+.tag{
+	padding: 0.33rem 0;
+}
+.tag>a{
+	font-size: 0.28rem;
+	color: #ccc;
+	width: 1.18rem;
+	padding: 0.41rem 0;
+	text-align: center;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	margin-left: 0.52rem;
+	border: 3px solid #ccc;
+}
+.tag>a:first-child{
+	margin-left: 0.86rem;
+	color: #50bbdb;
+	border: 3px solid #50bbdb;
+}
+
+.churchyard{
+	width: 6.2rem;
+	margin: 0 auto;
+}
+.churchyard .travel{
+	position: relative;
+	height: 1.93rem;
+	margin-bottom: 0.1rem;
+	overflow: hidden;
+}
+.churchyard>.travel>span:nth-child(2){
+	width: 6.4rem;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.5;
+	font-size: 0.24rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-indent: 0.34rem;
+}
+.churchyard>.travel>span:nth-child(3){
+	font-size: 0.2rem;
+	width: 6.4rem;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.5;
+	color: #fff;
+	bottom: 0;
+	text-indent: 0.34rem;
+}
+.churchyard .travel>span:last-child{
+	border-radius: 50%;
+	width: 0.91em;
+	height: 0.91em;
+	/* z-index: -1; */
+	border: 5px solid #fff;
+	background-color: #f0884d;
+	position:absolute;
+	bottom: -0.46rem;
+	right: 2px;
+}
+.churchyard .travel>span:last-child>i{
+	font-size: 0.2rem;
+	font-style: normal;
+	letter-spacing: -1.8px;
+	margin-top: 0.22rem;
+	color: #fff;
+	float: left;
+	margin-left: 4px;
+}
+.churchyard .travel>span:last-child>i:last-child{
+	font-size: 0.12rem;
+	margin-top: 0.28rem;
+}
+.more_bg{
+	background-color: #f1f1f1;
+}
+.more{
+	width: 1.17rem;
+	margin: 0 auto;
+	font-size: 0.2rem;
+	display: flex;
+	color: #9a9a9a;
+	padding: 0.24rem 0;
+}
+.more>i{
+	background-image: url('../images/more_2_03.png');
+	background-repeat: no-repeat;
+	width: 0.25rem;
+	height: 0.25rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-left: 0.09rem;
+}
+
+.more_1{
+	display: none;
+}

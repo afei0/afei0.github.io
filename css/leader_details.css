@@ -1,0 +1,153 @@
+.top{
+	width: 6.4rem;
+	display: flex;
+	background-color: #50bbdb;
+	padding: 0.23rem 0;
+}
+.top>i{
+	width: 0.43em;
+	padding-top: 0.43rem;
+	background-image: url('../images/back_1.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-left: 0.45rem;
+}
+.top>span{
+	margin-left: 1.75rem;
+	font-size: 0.28rem;
+	color:#fff;
+}
+
+
+section{
+	padding: 0 0.52rem 0.38rem 0.41rem;
+}
+.main{
+	display: flex;
+	padding-top: 0.19rem;
+	padding-bottom: 0.24rem;
+}
+.main>p{
+	width: 2.98rem;
+	font-size: 0.28rem;
+	line-height: 0.6rem;
+	margin-top: 0.63rem;
+	margin-left: 0.49rem;
+	margin-bottom: 0.67rem;
+	border-bottom: 1px dotted #dbdbdb;
+}
+.main>img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.art{
+	border: 1px dotted #dbdbdb;
+	padding: 0.26rem 0 0.38rem 0.1rem;
+}
+.art>p{
+	font-size: 0.2rem;
+	line-height: 0.36rem;
+}
+
+
+.churchyard{
+	width: 6.2rem;
+	margin: 0 auto;
+}
+.churchyard .travel{
+	position: relative;
+	height: 1.93rem;
+	margin-bottom: 0.1rem;
+	overflow: hidden;
+}
+.travel img{
+	width: 6.2rem;
+}
+.churchyard>.travel>span:nth-child(2){
+	width: 6.4rem;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.5;
+	font-size: 0.24rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-indent: 0.34rem;
+}
+.churchyard>.travel>span:nth-child(3){
+	font-size: 0.2rem;
+	width: 6.4rem;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.5;
+	color: #fff;
+	bottom: 0;
+	text-indent: 0.34rem;
+}
+.churchyard .travel>span:last-child{
+	border-radius: 50%;
+	width: 0.91em;
+	height: 0.91em;
+	/* z-index: -1; */
+	border: 5px solid #fff;
+	background-color: #f0884d;
+	position:absolute;
+	bottom: -0.46rem;
+	right: 2px;
+}
+.churchyard .travel>span:last-child>i{
+	font-size: 0.2rem;
+	font-style: normal;
+	letter-spacing: -1.8px;
+	margin-top: 0.22rem;
+	color: #fff;
+	float: left;
+	margin-left: 4px;
+}
+.churchyard .travel>span:last-child>i:last-child{
+	font-size: 0.12rem;
+	margin-top: 0.28rem;
+}
+.more_bg{
+	background-color: #f1f1f1;
+}
+.more{
+	width: 1.17rem;
+	margin: 0 auto;
+	font-size: 0.2rem;
+	display: flex;
+	color: #9a9a9a;
+	padding: 0.24rem 0;
+}
+.more>i{
+	background-image: url('../images/more_2_03.png');
+	width: 0.25rem;
+	background-repeat: no-repeat;
+	height: 0.25rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-left: 0.09rem;
+}
+
+.pro{
+	display: flex;
+	padding-top: 0.25rem;
+	padding-bottom: 0.21rem;
+	background-color: #f1f1f1;
+}
+.pro>i{
+	width: 2.67rem;
+	height: 1px;
+	margin-top: 0.13rem;
+	background-color: #e0e0e0;
+}
+.pro>span{
+	margin: 0 auto;
+	font-size: 0.22rem;
+}
+
+.more_1{
+	display: none;
+}

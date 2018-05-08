@@ -1,0 +1,141 @@
+.top{
+	background-color: #50bbdb;
+}
+    html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-weight: inherit;
+	    font-style: inherit;
+	    font-size: 100%;
+	    font-family: inherit;
+	    vertical-align: baseline;
+	}
+	.clearfix:before,
+	.clearfix:after {
+					    content: "";
+					    display: block;
+					    clear: both;
+					    visibility: hidden;
+					    line-height: 0;
+					    height: 0;
+					    font-size:0;
+}
+
+.clearfix { *zoom:1;}
+a {
+　　border: none;
+　　-webkit-tap-highlight-color: rgba(0,0,0,0);
+　　-webkit-tap-highlight-color: transparent;
+　　outline: none;
+}
+.warp{
+	width:100%;
+}
+.top-l{
+	
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-image: url(../images/back_1.png);
+	background-repeat: no-repeat;
+	width: 0.43rem;
+	height: 0.43rem;
+	float: left;
+	margin-left: 0.44rem;
+	margin-right: 1.43rem;
+	margin-top: 0.23rem;
+}
+.top h1{
+	float: left;
+	font-size: 0.26rem;
+	color:#fff;
+	line-height: 0.88rem;
+}
+.top a{
+	float: right;
+	text-decoration: none;
+	font-size: 0.18rem;
+	color:#fff;
+	margin-right: 0.22rem;
+	line-height: 0.88rem;
+}
+.min>p{
+	font-size: 0.22rem;
+	width:100%;
+	text-align: center;
+	line-height: 0.49rem;
+	border-bottom: 1px solid #ccc;
+}
+.min>p span{
+	color:#50bbdb;
+
+
+}
+.min ul li{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	font-size: 0.24rem;
+	line-height: 0.66rem;
+}
+.min ul li p{
+	display: flex;
+	margin-left: 0.45rem;
+}
+.min ul li p i{
+	width: 0.46rem;
+	height: 0.46rem;
+	margin-top: 0.1rem;
+	margin-right: 0.1rem;
+	background-image: url(../images/head.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.min ul li span{
+	background-image: url(../images/tab.png);
+	background-repeat: no-repeat;
+	width: 0.31rem;
+	height: 0.31rem;
+	margin-top: 0.12rem;
+	margin-right: 0.22rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.min ul li .option{
+	background-image: url(../images/tab1.png);
+} 
+footer{
+	width: 100%;
+	background-color: #50bbdb;
+	position: fixed;
+	bottom: 0rem;
+	padding: 0.29rem 0;
+}
+
+footer a{
+	width: 2.24rem;
+	margin: 0 auto;
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	font-size: 0.26rem;
+}
+footer a i{
+	background-image: url(../images/foot.png);
+	background-repeat: no-repeat;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.24rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+

@@ -1,0 +1,214 @@
+/*banner*/
+.banner{
+	width: 6.4rem;
+	position: relative;
+	padding-top: 3rem;
+}
+.banner>div>img{
+	position: absolute;
+	display: block;
+	top:0;
+	left: 0;
+}
+.banner>div>img:nth-child(2),.banner>div>img:last-child{
+	display: none;
+}
+.banner img{
+	width: 6.4rem;
+}
+.banner>ul{
+	position: absolute;
+	bottom: 0.28rem;
+	left: 2.32rem;
+
+}
+.banner>ul>li{
+	margin-left: 0.22rem;
+	width: 0.28rem;
+	padding-top: 0.28rem;
+	float: left;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.banner>ul>li.active{
+	background-color: #50bbdb;
+}
+
+
+/*search*/
+.search{
+	padding-top: 1.16rem;
+	text-align: center;
+	position: relative;
+}
+.search>input{
+	outline: none;
+	border:1px solid #51bbdb;
+	border-radius: 0.2rem;
+	background: none;
+	width: 3.41rem;
+	line-height: 0.39rem;
+	font-size: 0.2rem;
+	text-indent: 0.2rem;
+	position: absolute;
+	top:0.38rem;
+	left: 1.47rem;
+}
+.search>a{
+	background-image: url('../images/search.png');
+	background-repeat: no-repeat;
+	width: 0.26em;
+	height: 0.26rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+	position: absolute;
+	right:1.78rem;
+	top:0.49rem;
+}
+
+
+
+
+/*section 境内*/
+.churchyard>div:first-child{
+	position: relative;
+	padding-top: 0.27rem;
+	margin-bottom: 0.25rem;
+}
+.churchyard>div:first-child span{
+	position: absolute;
+	background-color: #ccc;
+	padding-top: 1px;
+	display: block;
+	width: 2.67rem;
+	margin-left: 5px;
+}
+.churchyard>div span.last{
+	margin-left: 0;
+	right: 5px;
+	background-position: center center;
+}
+.churchyard>div>i{
+	position: absolute;
+	background-image: url('../images/left.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	width: 0.1rem;
+	margin-top: -0.06rem;
+	height: 0.13rem;
+	left:2.7rem;
+}	
+.churchyard>div i.right{
+	background-image: url('../images/right.png');
+	background-repeat: no-repeat;
+	left:3.6rem;
+}
+.churchyard>div em{
+	position: absolute;
+	font-size: 0.28rem;
+	width: 0.73rem;
+	margin-top: -0.2rem;
+	margin-left: 0.23rem;
+	left:2.7rem;
+}
+
+.churchyard .travel{
+	position: relative;
+}
+.churchyard .travel>img{
+	display: block;
+}
+.churchyard .travel>span{
+	width: 6.4rem;
+	position: absolute;
+	top:0;
+	color:#fff;
+	text-indent: 0.34rem;
+	font-size: 0.32rem;
+	padding-bottom: 0.1rem;
+	line-height:0.47rem;
+	background-color: #000;
+	opacity: 0.5;
+}
+.churchyard .travel>span:nth-child(3){
+	top:2.66rem;
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	padding-bottom: 0;
+}
+.churchyard .travel>div{
+	position: absolute;
+	z-index: 2;
+	width: 1.01rem;
+	padding-top: 1.01rem;
+	background-color: #fff;
+	border-radius: 50%;
+	bottom: 0.08rem;
+	right: 1px;
+}
+.churchyard .travel>div>span{
+	background-color: #eb6417;
+	width: 0.91rem;
+	height: 0.91rem;
+	position: absolute;
+	border-radius: 50%;
+	top:0.05rem;
+	left: 0.05rem;
+}
+.churchyard .travel>div>span>i{
+	width: 0.91em;
+	font-size: 0.2rem;
+	font-style: normal;
+	color: #fff;
+	position: absolute;
+	top:0.17rem;
+	left: 0.06rem;
+}
+.churchyard .travel>div>span>i:last-child{
+	top:0.53rem;
+	left: 0.35rem;
+}
+.churchyard .travel>div>span>em{
+	width: 0.91rem;
+	position: absolute;
+	z-index: 3;
+	padding-top: 1px;
+	left:-0.23rem;
+	top:0.67rem;
+	background-color: #f5b28b;
+}
+.churchyard .travel>p{
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	margin-bottom: 0.14rem;
+	text-indent: 0.3rem;
+}
+.churchyard .more{
+	width: 6.4rem;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #eb6417;
+	background-color: #f1f1f1;
+	padding-top: 0.15rem;
+	padding-bottom: 0.15rem;
+}
+.churchyard .more>div{
+	width: 1.12rem;
+	margin: 0 auto;
+}
+.churchyard .more_1{
+	display: none;
+}
+.churchyard .more>div>span:first-child{
+	border: 1px solid #eb6417;
+	width: 0.25rem;
+	display: block;
+	float: left;
+	font-size: 0.3rem;
+	line-height: 0.25rem;
+	border-radius: 50%;
+}
+.churchyard .more>span:last-child{
+	float: left;
+}

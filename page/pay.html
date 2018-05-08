@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>支付</title>
+    <script type="text/javascript">
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px'
+    </script>
+    <link rel="stylesheet" type="text/css" href="../css/init.css">
+    <link rel="stylesheet" type="text/css" href="../css/pay.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="top">
+                <i></i>
+                <span>选择支付方式</span>
+            </div>
+        </header>
+        <section>
+            <div class="total">
+                <span>订单总额:</span>
+                <span>￥5920</span>
+            </div>
+            <div class="pay_bg">
+                <div class="pay_style">
+                    <div>
+                        <span><i></i>
+							<span>支付宝支付</span></span>
+                        <i class="sel"></i>
+                    </div>
+                    <div>
+                        <span><i></i>
+							<span>微信支付</span></span>
+                        <i class="sel"></i>
+                    </div>
+                    <div>
+                        <span><i></i>
+							<span>银联支付</span></span>
+                        <i class="sel"></i>
+                    </div>
+                </div>
+                <i></i>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <span>支付:<i>￥5920</i></span>
+                <em>剩余 <i class="hour">00</i>:<i class="min">00</i>:<i class="sec">00</i> 请尽快付款</em>
+            </div>
+    
+    <a href="javascript:void(0)">付款</a>
+    </footer>
+    </div>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/touch.js"></script>
+    <script src="../js/pay.js"></script>
+    <script src="../js/selector.js"></script>
+</body>
+
+</html>

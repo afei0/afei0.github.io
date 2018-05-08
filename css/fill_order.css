@@ -1,0 +1,335 @@
+.top{
+	width: 6.4rem;
+	display: flex;
+	justify-content: space-between;
+	background-color: #50bbdb;
+	padding: 0.23rem 0;
+}
+.top>i{
+	width: 0.43rem;
+	height: 0.43rem;
+	background-image: url('../images/back_1.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-left: 0.45rem;
+}
+.top>span{
+	font-size: 0.28rem;
+	line-height: 0.43rem;
+	color:#fff;
+}
+.top>a{
+	width: 0.37rem;
+	height: 0.41rem;
+	background-image: url('../images/tel_03.png');
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-right: 0.45rem;
+}
+
+
+/*section*/
+section>p{
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	margin:0.17rem 0.21rem 0.16rem 0.15rem;
+}
+.info{
+	background-color: #ededed;
+	padding: 0.17rem 0.21rem 0 0.15rem;
+}
+.info>div{
+	background-color: #fff;
+	margin-bottom: 0.17rem;
+	border-radius: 6px;
+}
+.info>div>span{
+	display: flex;
+	line-height: 0.51rem;
+	font-size: 0.24rem;
+	border-bottom: 1px solid #dcdcdc;
+}
+.info>div>span>i{
+	width: 0.04rem;
+	height: 0.27rem;
+	margin: 0.12rem 0.19rem 0 0.13rem;
+	background-color: #50bbdb;
+}
+.info>div>ul{
+	padding: 0.18rem 0.51rem 0.08rem 0.36rem;
+}
+.info>div>ul>li{
+	font-size: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.info>.circuit>ul>li>a{
+	float: right;
+	color:#50bbdb;
+	font-size: 0.2rem;
+	width: 0.75rem;
+	text-align: center;
+	border-radius: 6px;
+	line-height: 0.33rem;
+	border: 1px solid #dcdcdc;
+}
+.circuit .room,
+.circuit .room>span{
+	display: flex;
+}
+.circuit .room>span>a{
+	width: 0.34rem;
+	line-height: 0.27rem;
+	text-align: center;
+	color:#50bbdb;
+	border: 1px solid #ccc;
+}
+.circuit .room>span>input{
+	outline: none;
+	width: 0.49rem;
+	line-height: 0.27rem;
+	border: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.circuit .idea>span>span,
+.circuit .idea{
+	display: flex;
+}
+.circuit .idea>span>span:first-child{
+	margin-bottom: 0.22rem;
+}
+.circuit .idea>span{
+	display: flex;
+	flex-direction: column;
+	font-size: 0.18rem;
+}
+
+.circuit .idea>span>span>i{
+	background-image: url('../images/no_select_2_03.png');
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-right: 0.21rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.circuit .idea>span>.select>i{
+	background-image: url('../images/select_2_03.png');
+}
+
+.info>.linkman>ul>li,.info>.visitor>ul>li,.insure>ul>li{
+	display: flex;
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: 0.11rem;
+}
+
+.linkman input{
+	font-size: 0.2rem;
+}
+.linkman ul>li>i{
+	font-style: normal;
+	color: #50bbdb;
+}
+.linkman li:nth-child(2){
+	display: flex;
+}
+.linkman input[type=radio]{
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-right: 0.13rem;
+}
+.linkman input[type=radio]:nth-child(2){
+	margin-left: 1.54rem;
+}
+.linkman input[type=radio]:nth-child(3){
+	margin-left: 0.5rem;
+}
+.paste{
+	position: relative;
+}
+.info .paste>i{
+	width: 1.16rem;
+	height: 0.09rem;
+	position: absolute;
+	left: 0.28rem;
+	top:0.42rem;
+	background-image: url('../images/select_sj_07.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.paste>span a{
+	color: #333;
+}
+.paste>span a:last-child{
+	margin-left: 0.44rem;
+}
+.info .paste>ul>li{
+	font-size: 0.18rem;
+}
+.info .paste>ul>li:first-child{
+	font-size: 0.2rem;
+}
+.info>.visitor>span>a{
+	color: #50bbdb;
+	font-size: 0.2rem;
+	margin-left: 3.4rem;
+}
+.visitor>i{
+	width: 0.33rem;
+	line-height: 0.33rem;
+	margin: 0 auto;
+	font-size: 0.24rem;
+	text-align: center;
+	border-radius: 50%;
+	display: block;
+	border: 1px solid #dcdcdc;
+	font-style: normal;
+	margin-top: -0.2rem;
+}
+.visitor>ul>li a{
+	display: flex;
+	width: 1.02rem;
+	line-height: 0.39rem;
+	font-size: 0.18rem;
+	color: #333;
+	border: 1px solid #ccc;
+}
+.visitor>ul>li>i{
+	font-style: normal;
+	color: #50bbdb;
+}
+.visitor>ul>li:nth-child(3){
+	display: none;
+}
+.visitor>ul>li a>span{
+	display: flex;
+	margin: 0 auto;
+}
+.visitor>ul>li a>span>i{
+	width: 0.11rem;
+	margin-top: 0.2rem;
+	height: 0.06rem;
+	margin-left: 0.12rem;
+	background-image: url('../images/xsj_07.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.visitor>ul>li.add{
+	display: block;
+}
+.visitor input{
+	font-size: 0.2rem;
+}
+.visitor{
+	padding-bottom: 0.08rem;
+}
+
+.info .insure{
+	margin-bottom: 0;
+}
+
+/* 改 */
+.insure>ul>li{
+	display: flex;
+	justify-content: space-between;
+}
+.insure>ul>li>span:first-child{
+	display: flex;
+}
+.insure>ul>li>span>i:first-child{
+	width: 0.21rem;
+	height: 0.25rem;
+	background-image: url('../images/square.png');
+	-webkit-background-size: cover;
+	margin-top: 0.06rem;
+	margin-right: 0.22rem;
+	background-size: cover;
+}
+.insure>ul>li>span>i.active{
+	width: 0.29rem;
+	height: 0.27rem;
+	margin-right: 0.14rem;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-image: url('../images/select_1_03.png');
+}
+.insure>ul>li:last-child{
+	border-bottom: 0;
+}
+.insure>ul>li>span:last-child>span{
+	display: block;
+	text-align: right;
+}
+.insure>ul>li>span:last-child>i{
+	color: #f98d0d;
+	font-style: normal;
+}
+.info>span{
+	display: block;
+	text-align: center;
+	font-size: 0.2rem;
+	line-height: 0.67rem;
+}
+
+input[type=checkbox]{
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-right: 0.04rem;
+}
+
+
+/*footer*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 0.16rem 0.26rem 0.16rem 0.17rem;
+}
+footer>span{
+	font-size: 0.24rem;
+	color: #f98d0d;
+	line-height: 0.66rem;
+}
+footer>span>i{
+	font-style: normal;
+}
+footer>a{
+	font-size: 0.28rem;
+	width: 2.35rem;
+	height: 0.66rem;
+	line-height: 0.66rem;
+	text-align: center;
+	color: #fff;
+	background-color: #50bbdb;
+	border-radius: 6px;
+}
+
+
+.flip{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+}
+.active{
+	display: block;
+}
+.flip>div{
+	width: 3.2rem;
+	height: 1.6rem;
+	background-color: #fff;
+	border-radius: 10px;
+	position: absolute;
+	top:2.4rem;
+	left: 1.6rem;
+	text-align: center;
+}
+.flip span{
+	line-height: 1.6rem;
+	font-size: 0.24rem;
+	color:red;
+}

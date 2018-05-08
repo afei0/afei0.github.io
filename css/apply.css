@@ -1,0 +1,174 @@
+   html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-weight: inherit;
+	    font-style: inherit;
+	    font-size: 100%;
+	    font-family: inherit;
+	    vertical-align: baseline;
+	}
+	.clearfix:before,
+	.clearfix:after {
+					    content: "";
+					    display: block;
+					    clear: both;
+					    visibility: hidden;
+					    line-height: 0;
+					    height: 0;
+					    font-size:0;
+}
+a {
+　　border: none;
+　　-webkit-tap-highlight-color: rgba(0,0,0,0);
+　　-webkit-tap-highlight-color: transparent;
+　　outline: none;
+}
+.clearfix { *zoom:1;}
+
+
+.top{
+	background-color: #50bbdb;
+	width: 6.40rem;
+}
+.top a{
+	width: 0.43rem;
+	height: 0.43rem;
+	background-image: url(../images/back_1.png);
+	background-repeat: no-repeat;
+	margin: 0.23rem 1.72rem 0rem 0.45rem;
+	float: left;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.top h1{
+	font-size: 0.26rem;
+	color:#fff;
+	float: left;
+	line-height: 0.88rem;
+}
+.top-d h2{
+	font-size: 0.26rem;
+	float: left;
+	line-height: 0.78rem;
+	margin-left: 2.06rem;
+}
+.top-d p{
+	margin-left: 0.60rem;
+	float: left;
+	font-size: 0.26rem;
+	line-height: 0.78rem;
+	color:#50bbdb;
+}
+.meno img{
+	width: 6.40rem;
+	height: 4.25rem;
+
+}
+.min-right,.min-left{
+	width: 1.88rem;
+	float: left;
+
+}
+
+.min-lefttop p,.min-righttop p{
+	float: left;
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+}
+.min-lefttop span,.min-righttop span{
+	float: right;
+	font-size: 0.24rem;
+	color:#f0851a;
+	line-height: 0.44rem;
+}
+.min-leftDown,.min-rightDown{
+	width: 1.88rem;
+	border:1px solid #50bbdb;
+	border-radius: 0.08rem;
+}
+.min-leftDown a,.min-rightDown a{
+	display: block;
+	float: left;
+	text-decoration: none;
+	color:#50bbdb;
+	width: 0.56rem;
+	line-height: 0.48rem;
+	text-align: center;
+	font-size: 0.28rem;
+}
+.min-leftDown input,.min-rightDown input{
+	font-size: 0.28rem;
+	width: 0.65rem;
+	line-height: 0.48rem;
+	text-align: center;
+	color:#fff;
+	float: left;
+	border:none;
+	border-top: 1px solid #50bbdb;
+	border-bottom: 1px solid #50bbdb;
+	outline: none;
+	background-color: #50bbdb;
+}
+.min-right{
+	margin-left: 1.20rem;
+}
+.min{
+	padding-bottom: 0.17rem;
+	border-bottom:1px solid #ccc;
+}
+.minDown span{
+	display: block;
+	width: 0.23rem;
+	height: 0.23rem;
+	background-image: url(../images/mark.png);
+	background-repeat: no-repeat;
+	float: left;
+		-webkit-background-size: contain;
+	background-size: contain;
+	margin: 0.18rem 0.20rem 0rem 0.36rem;
+}
+.minDown p{
+	float: left;
+	line-height: 0.61rem;
+	font-size: 0.16rem;
+	color:#666;
+}
+.seg{
+	padding-top: 0.53rem;
+	width: 6.40rem;
+	background-color: #ccc;
+}
+footer span{
+	display: block;
+	font-size: 0.20rem;
+	line-height: 0.36rem;
+	margin-left: 0.18rem;
+	margin-top: 0.05rem;
+}
+.get{
+	float: left;
+}
+.footer-left{
+	float: left;
+}
+.footer-right a{
+	width: 2.35rem;
+	line-height: 0.66rem;
+	text-decoration: none;
+	font-size: 0.26rem;
+	color:#fff;
+	background-color: #50bbdb;
+	float: right;
+	margin: 0.16rem 0.26rem 0.17rem;
+	border-radius: 0.05rem;
+	text-align: center;
+}

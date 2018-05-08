@@ -1,0 +1,109 @@
+.top{
+	width: 6.4rem;
+	display: flex;
+	justify-content: space-between;
+	background-color: #50bbdb;
+	padding: 0.23rem 0; 	
+}
+.top>i{
+	width: 0.43em;
+	height: 0.43rem;
+	background-image: url('../images/back_1.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-left: 0.45rem;
+}
+.top>span{
+	font-size: 0.28rem;
+	color:#fff;
+}
+.top>a{
+	font-size: 0.24rem;
+	color: #fff;
+	margin-right: 0.19rem;
+}
+
+
+.min{
+	padding-left: 0.16rem;
+	padding-right: 0.21rem;
+}
+.min span{
+	font-size: 0.22rem;
+	margin-left: 0.36rem;
+}
+.min ul li input{
+	font-size: 0.22rem;
+}
+.min ul li:nth-child(2) input{
+	width: 3.28rem;
+}
+.min ul li:nth-child(2) input::placeholder{
+	color: #333;
+	border-bottom: 1px solid #333;
+}
+.min ul li{
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5rem;
+	position: relative; 	
+	border-bottom: 1px solid #ccc;
+}
+.min ul li:nth-child(2) i{
+	width: 0.29rem;
+	height: 0.21rem;
+	position: absolute;
+	bottom: 0.13rem;
+	right: 0;
+	background-image: url('../images/input_bg_03.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.min ul li ul{
+	width: 3.28rem;
+	position: absolute;
+	display: none;
+	right: 0;
+	top: 0.39rem;	
+	flex-direction: column;
+	z-index: 2;
+	background-color: #ccc;
+}
+.min .card{
+	display: block;
+}
+.card li{
+	font-size: 0.24rem;
+	color:#333;
+}
+
+.flip{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+}
+.active{
+	display: block;
+}
+.flip>div{
+	width: 3.2rem;
+	height: 1.6rem;
+	background-color: #fff;
+	border-radius: 10px;
+	position: absolute;
+	top:2.4rem;
+	left: 1.6rem;
+	text-align: center;
+}
+.flip span{
+	line-height: 1.6rem;
+	font-size: 0.24rem;
+	color:red;
+}

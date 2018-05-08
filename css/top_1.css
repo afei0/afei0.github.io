@@ -1,0 +1,82 @@
+.top{
+	width: 6.4rem;
+	background-color: #50bbdb;
+}
+.top>span{
+	float: left;
+}
+.top>span>i{
+	font-size: 0.18rem;
+	font-style: normal;
+	line-height: 0.88rem;
+	color: #fff;
+	float: left;
+}
+.top>div{
+	float: left;
+	margin-left: 3px;
+	padding-top: 0.25rem;
+}
+.top>div>i{
+	font-size: 0.26rem;
+	font-style: normal;
+}
+.top>div>i:last-child{
+	color:#fff;
+	width: 1.68rem;
+	float: left;
+	display: block;
+	border: 1px solid #addfee;
+	border-radius: 0 4px 4px 0;
+	text-align: center;
+	line-height: 0.35rem;
+}
+.top>div>i:first-child{
+	color:#50bbdb;
+	width: 1.68rem;
+	text-align: center;
+	float: left;
+	display: block;
+	position: relative;
+	border-radius: 4px 0 0 4px;
+	line-height: 0.37rem;
+	background-color: #fff;
+}
+.top>span>a{
+	background-image: url('../images/1.png');
+	background-repeat: no-repeat;
+	width: 0.56rem;
+	height: 0.56rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+	display: block;
+	float: left;
+	margin:0.17rem 0.05rem 0 0.14rem;
+}
+.top>a{
+	background-image: url('../images/2.png');
+	background-repeat: no-repeat;
+	width: 0.55rem;
+	height: 0.55rem;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin-top: 0.18rem;
+	margin-right: 0.16rem;
+	display: block;
+	float: right;
+	background-repeat: no-repeat;
+}
+.top>div>i>em{
+	width: 0.08rem;
+	height: 0.09rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-image: url('../images/nav_sj.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+img{
+	width: 6.4rem;
+}

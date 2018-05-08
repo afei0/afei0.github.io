@@ -1,0 +1,27 @@
+/* footer */
+footer{
+	padding: 0.13rem 0;
+}
+footer>ul{
+	display: flex;
+	justify-content: space-around;
+}
+footer>ul li a{
+	display: flex;
+	flex-direction: column;
+}
+.icon-shouye-,.icon-ziyuan,.icon-ditu,.icon-gerenzhongxin{
+	font-size: 0.4rem;
+	color: #7f7f7f;
+	text-align: center;
+}
+footer>ul li a{
+	font-size: 0.2rem;
+	color: #a0a0a0;
+}
+footer>ul li:first-child a{
+	color: #53bcdc;
+}
+footer .icon-shouye-{
+	color:#53bcdc;
+}
